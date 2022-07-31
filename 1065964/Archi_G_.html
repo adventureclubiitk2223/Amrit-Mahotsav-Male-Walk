@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example Fitness Challenge</title>
+<style>
+  body { color: #000; font-family: Arial, sans-serif; display: grid; grid-template: auto 1fr auto / 100%; min-height: 100vh; margin: 0; }
+  a { text-decoration: none; color: inherit; }
+  a:hover { text-decoration: underline; }
+  h1 { margin: 0; }
+  h2 { clear: left; margin: 1em 0 .5em; }
+  h3 { margin: .5em 0; }
+  header, footer { background: #1e4198; color: white; padding: 1em; }
+  header h2 { margin: .5em 0 0; }
+  main { padding: 1em; }
+  div.bar:after { clear: left; content: ""; display: block; }
+  h3 img { min-height: 124px; min-width: 124px; }
+  img { border-radius: 10%; }
+  table { border-collapse: collapse; margin: 0 0 1.5em; }
+  tr { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+  tr:first-child, tr:last-child { border-top: 1px solid #333; border-bottom: 1px solid #333; }
+  th, td { max-width: 25em; padding: .5em 1em; text-align: left; vertical-align: top; }
+  th.numeric, td.numeric { text-align: right; }
+  .athlete th:last-child:hover::after, .club th:last-child:hover::after, .standings th:last-child:hover::after { content: " (Bike miles are divided by 4)"; color: #c00; background: #fff; position: absolute; }
+  .athlete td:first-child { white-space: nowrap; }
+  img, .activities, .leaders { float: left; margin: 0 1em 0 0; }
+  .activities, .leaders { margin-bottom: 1px; }
+  .activities h3, .leaders h3 { margin-top: 0; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1><a href="../">Example Fitness Challenge</a></h1>
+</header>
+
+<main>
+  <p>Our progress board refreshes daily to avoid slamming the Strava API. No mid-day updates. :(</p>
+  <p><strong>Something missing?</strong> If a single activity is missing, you probably need to edit the activity and change its visibility in Strava. Contact your club captain for details.</p>
+
+<h3 id="1065964"><a href="https://www.strava.com/clubs/amritmahotsavwalkevent"><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/large.jpg"></a> Archi G.</h3>
+<table class="athlete"><tbody><tr><th>Date</th><th>Event</th><th>Description</th><th class="numeric">Duration</th><th class="numeric">KM</th><th class="numeric">KM (Adjusted)</th></tr>
+<tr title="d92c3046245c55714abb48920fe324a38dd563c1"><td>7/29/2022</td><td>Walk</td><td>Lunch Walk</td><td class="numeric">19:45</td><td class="numeric">2.0</td><td class="numeric">2.0</td></tr>
+<tr title="0f1930c948d125456caae1787bc631a43d7df770"><td>7/29/2022</td><td>Walk</td><td>Evening Walk</td><td class="numeric">23:42</td><td class="numeric">2.1</td><td class="numeric">2.1</td></tr>
+<tr title="30c2722c4a9a092ee06b8a28695df845305f9d24"><td>7/30/2022</td><td>Walk</td><td>Lunch Walk</td><td class="numeric">57:29</td><td class="numeric">3.4</td><td class="numeric">3.4</td></tr>
+<tr><th colspan="3">Total</th><th class="numeric">1:40:56</th><th class="numeric">7.5</th><th class="numeric">7.5</th></tr>
+</tbody></table>
+
+  <p><strong>Last update:</strong> Sun, 31 Jul 2022 14:16 IST</p>
+</main>
+
+<footer>
+	<p>&copy; Copyright 2021</p>
+</footer>
+
+</body>
+</html>

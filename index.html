@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example Fitness Challenge</title>
+<style>
+  body { color: #000; font-family: Arial, sans-serif; display: grid; grid-template: auto 1fr auto / 100%; min-height: 100vh; margin: 0; }
+  a { text-decoration: none; color: inherit; }
+  a:hover { text-decoration: underline; }
+  h1 { margin: 0; }
+  h2 { clear: left; margin: 1em 0 .5em; }
+  h3 { margin: .5em 0; }
+  header, footer { background: #1e4198; color: white; padding: 1em; }
+  header h2 { margin: .5em 0 0; }
+  main { padding: 1em; }
+  div.bar:after { clear: left; content: ""; display: block; }
+  h3 img { min-height: 124px; min-width: 124px; }
+  img { border-radius: 10%; }
+  table { border-collapse: collapse; margin: 0 0 1.5em; }
+  tr { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+  tr:first-child, tr:last-child { border-top: 1px solid #333; border-bottom: 1px solid #333; }
+  th, td { max-width: 25em; padding: .5em 1em; text-align: left; vertical-align: top; }
+  th.numeric, td.numeric { text-align: right; }
+  .athlete th:last-child:hover::after, .club th:last-child:hover::after, .standings th:last-child:hover::after { content: " (Bike miles are divided by 4)"; color: #c00; background: #fff; position: absolute; }
+  .athlete td:first-child { white-space: nowrap; }
+  img, .activities, .leaders { float: left; margin: 0 1em 0 0; }
+  .activities, .leaders { margin-bottom: 1px; }
+  .activities h3, .leaders h3 { margin-top: 0; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1><a href="./">Example Fitness Challenge</a></h1>
+  <h2>286 KM complete! (53 hours)</h2>
+</header>
+
+<main>
+  <p>
+    <strong>First day:</strong> July 29<br>
+    <strong>Last day:</strong> September 30<br>
+    <strong>Updated through end of Day 2:</strong> July 30
+  </p>
+
+  <h2>Clubs</h2>
+<table class="standings"><tbody><tr><th colspan="2">Club</th>
+<th class="numeric">Walk</th>
+<th class="numeric">Total</th><th class="numeric">Total (Adjusted)</th></tr>
+<tr><th>1.</th><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="#1065964">Amrit Mahotsav: Ek Unmukt Yatra (Walk Event, Male)</a></th>
+<td class="numeric">285.7</td>
+<td class="numeric">285.7</td><th class="numeric">280.9</th></tr>
+<tr><th colspan="2">Totals</th>
+<td class="numeric">285.7</td>
+<td class="numeric">285.7</td><th class="numeric">280.9</th></tr>
+</tbody></table>
+
+  <h2>Leaders</h2>
+<div class="leaders" id="leaders-Walk"><h3>Walk</h3>
+<table><tbody><tr><th>Athlete</th><th class="numeric">KM</th></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Yatendra_S_.html">Yatendra S.</a></th><td class="numeric">48.5</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Priyadarshini_Dwivedi_I_.html">Priyadarshini Dwivedi I.</a></th><td class="numeric">30.5</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Amandeep_U_.html">Amandeep U.</a></th><td class="numeric">24.2</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Ankit_S_.html">Ankit S.</a></th><td class="numeric">20.9</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Shivangi_D_.html">Shivangi D.</a></th><td class="numeric">20.0</td></tr>
+</tbody></table></div>
+
+  <h2>Top Efforts</h2>
+<div class="activities" id="activities-Walk"><h3>Walk</h3>
+<table><tbody><tr><th>Athlete</th><th class="numeric">KM</th><th>Date</th><th>Description</th></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Yatendra_S_.html">Yatendra S.</a></th><td class="numeric">25.0</td><td>7/30/2022</td><td>Day-2 Walk-1</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Yatendra_S_.html">Yatendra S.</a></th><td class="numeric">13.1</td><td>7/29/2022</td><td>Day-1 Walk-1</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Yuvraj_K_.html">Yuvraj K.</a></th><td class="numeric">11.7</td><td>7/30/2022</td><td>75 km walk by adventure club</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Adarsh_M_.html">Adarsh M.</a></th><td class="numeric">11.6</td><td>7/30/2022</td><td>Evening Walk</td></tr>
+<tr><th><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/medium.jpg" style="height:20px"><a href="1065964/Priyadarshini_Dwivedi_I_.html">Priyadarshini Dwivedi I.</a></th><td class="numeric">10.0</td><td>7/30/2022</td><td>Night Walk</td></tr>
+</tbody></table></div>
+
+  <h2>Clubs</h2>
+<h3 id="1065964"><a href="https://www.strava.com/clubs/amritmahotsavwalkevent"><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/large.jpg"> Amrit Mahotsav: Ek Unmukt Yatra (Walk Event, Male)</a></h3>
+<table class="club"><tbody><tr><th>Athlete</th><th>Event</th><th class="numeric">Hours</th><th class="numeric">KM</th><th class="numeric">Total</th><th>Top Effort</th><th class="numeric">Total (Adjusted)</th></tr>
+<tr><th rowspan="1"><a href="1065964/Yatendra_S_.html">Yatendra S.</a></th>
+<td>Walk</td><td class="numeric">8:20</td><td class="numeric">48.5</td>
+<td class="numeric" rowspan="1">48.5</td><td rowspan="1">25.0 km walk</td><th class="numeric" rowspan="1">48.5</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Priyadarshini_Dwivedi_I_.html">Priyadarshini Dwivedi I.</a></th>
+<td>Walk</td><td class="numeric">6:24</td><td class="numeric">30.5</td>
+<td class="numeric" rowspan="1">30.5</td><td rowspan="1">10.0 km walk</td><th class="numeric" rowspan="1">30.5</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Amandeep_U_.html">Amandeep U.</a></th>
+<td>Walk</td><td class="numeric">4:30</td><td class="numeric">24.2</td>
+<td class="numeric" rowspan="1">24.2</td><td rowspan="1">9.2 km walk</td><th class="numeric" rowspan="1">24.2</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Ankit_S_.html">Ankit S.</a></th>
+<td>Walk</td><td class="numeric">3:41</td><td class="numeric">20.9</td>
+<td class="numeric" rowspan="1">20.9</td><td rowspan="1">7.3 km walk</td><th class="numeric" rowspan="1">20.9</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Shivangi_D_.html">Shivangi D.</a></th>
+<td>Walk</td><td class="numeric">3:59</td><td class="numeric">20.0</td>
+<td class="numeric" rowspan="1">20.0</td><td rowspan="1">6.3 km walk</td><th class="numeric" rowspan="1">20.0</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Yuvraj_K_.html">Yuvraj K.</a></th>
+<td>Walk</td><td class="numeric">2:36</td><td class="numeric">16.3</td>
+<td class="numeric" rowspan="1">16.3</td><td rowspan="1">11.7 km walk</td><th class="numeric" rowspan="1">16.3</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Master_K_.html">Master K.</a></th>
+<td>Walk</td><td class="numeric">2:07</td><td class="numeric">12.1</td>
+<td class="numeric" rowspan="1">12.1</td><td rowspan="1">6.7 km walk</td><th class="numeric" rowspan="1">12.1</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Adarsh_M_.html">Adarsh M.</a></th>
+<td>Walk</td><td class="numeric">2:24</td><td class="numeric">11.6</td>
+<td class="numeric" rowspan="1">11.6</td><td rowspan="1">11.6 km walk</td><th class="numeric" rowspan="1">11.6</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Harshita_G_.html">Harshita G.</a></th>
+<td>Walk</td><td class="numeric">1:57</td><td class="numeric">11.1</td>
+<td class="numeric" rowspan="1">11.1</td><td rowspan="1">5.8 km walk</td><th class="numeric" rowspan="1">11.1</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Sumit_K_.html">Sumit K.</a></th>
+<td>Walk</td><td class="numeric">2:24</td><td class="numeric">10.0</td>
+<td class="numeric" rowspan="1">10.0</td><td rowspan="1">5.2 km walk</td><th class="numeric" rowspan="1">10.0</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/DIKSHA_S_.html">DIKSHA S.</a></th>
+<td>Walk</td><td class="numeric">2:09</td><td class="numeric">9.9</td>
+<td class="numeric" rowspan="1">9.9</td><td rowspan="1">5.1 km walk</td><th class="numeric" rowspan="1">9.9</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/SHUBHAM_RAJ_I_.html">SHUBHAM RAJ I.</a></th>
+<td>Walk</td><td class="numeric">1:06</td><td class="numeric">9.7</td>
+<td class="numeric" rowspan="1">9.7</td><td rowspan="1">8.1 km walk</td><th class="numeric" rowspan="1">9.7</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Ajinkya_D_.html">Ajinkya D.</a></th>
+<td>Walk</td><td class="numeric">1:16</td><td class="numeric">7.7</td>
+<td class="numeric" rowspan="1">7.7</td><td rowspan="1">3.9 km walk</td><th class="numeric" rowspan="1">7.7</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Archi_G_.html">Archi G.</a></th>
+<td>Walk</td><td class="numeric">1:40</td><td class="numeric">7.5</td>
+<td class="numeric" rowspan="1">7.5</td><td rowspan="1">3.4 km walk</td><th class="numeric" rowspan="1">7.5</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Khushi_K_.html">Khushi K.</a></th>
+<td>Walk</td><td class="numeric">1:50</td><td class="numeric">7.1</td>
+<td class="numeric" rowspan="1">7.1</td><td rowspan="1">5.8 km walk</td><th class="numeric" rowspan="1">7.1</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Radhika_P_.html">Radhika P.</a></th>
+<td>Walk</td><td class="numeric">1:12</td><td class="numeric">6.0</td>
+<td class="numeric" rowspan="1">6.0</td><td rowspan="1">2.1 km walk</td><th class="numeric" rowspan="1">6.0</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Udai_S_.html">Udai S.</a></th>
+<td>Walk</td><td class="numeric">:46</td><td class="numeric">5.4</td>
+<td class="numeric" rowspan="1">5.4</td><td rowspan="1">5.4 km walk</td><th class="numeric" rowspan="1">5.4</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Prateek_A_.html">Prateek A.</a></th>
+<td>Walk</td><td class="numeric">1:02</td><td class="numeric">5.2</td>
+<td class="numeric" rowspan="1">5.2</td><td rowspan="1">5.2 km walk</td><th class="numeric" rowspan="1">5.2</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Anil_K_.html">Anil K.</a></th>
+<td>Walk</td><td class="numeric">:39</td><td class="numeric">9.0</td>
+<td class="numeric" rowspan="1">9.0</td><td rowspan="1">2.2 km walk</td><th class="numeric" rowspan="1">4.2</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Mayank_M_.html">Mayank M.</a></th>
+<td>Walk</td><td class="numeric">:44</td><td class="numeric">3.2</td>
+<td class="numeric" rowspan="1">3.2</td><td rowspan="1">3.2 km walk</td><th class="numeric" rowspan="1">3.2</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Gyanajyoti_R_.html">Gyanajyoti R.</a></th>
+<td>Walk</td><td class="numeric">:33</td><td class="numeric">2.5</td>
+<td class="numeric" rowspan="1">2.5</td><td rowspan="1">2.5 km walk</td><th class="numeric" rowspan="1">2.5</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Balavinayagam_K_.html">Balavinayagam K.</a></th>
+<td>Walk</td><td class="numeric">:41</td><td class="numeric">2.5</td>
+<td class="numeric" rowspan="1">2.5</td><td rowspan="1">2.5 km walk</td><th class="numeric" rowspan="1">2.5</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Shiwangi_M_.html">Shiwangi M.</a></th>
+<td>Walk</td><td class="numeric">:26</td><td class="numeric">2.4</td>
+<td class="numeric" rowspan="1">2.4</td><td rowspan="1">2.4 km walk</td><th class="numeric" rowspan="1">2.4</th>
+</tr>
+<tr><th rowspan="1"><a href="1065964/Harshit_T_.html">Harshit T.</a></th>
+<td>Walk</td><td class="numeric">:28</td><td class="numeric">2.2</td>
+<td class="numeric" rowspan="1">2.2</td><td rowspan="1">2.2 km walk</td><th class="numeric" rowspan="1">2.2</th>
+</tr>
+<tr><th>Club Total</th><th></th><th class="numeric">53:06</th><th></th><th class="numeric">285.7</th><th></th><th class="numeric">280.9</th></tr>
+</tbody></table>
+
+  <p><strong>Last update:</strong> Sun, 31 Jul 2022 14:16 IST</p>
+</main>
+
+<footer>
+	<p>&copy; Copyright 2021</p>
+</footer>
+
+</body>
+</html>

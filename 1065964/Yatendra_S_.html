@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example Fitness Challenge</title>
+<style>
+  body { color: #000; font-family: Arial, sans-serif; display: grid; grid-template: auto 1fr auto / 100%; min-height: 100vh; margin: 0; }
+  a { text-decoration: none; color: inherit; }
+  a:hover { text-decoration: underline; }
+  h1 { margin: 0; }
+  h2 { clear: left; margin: 1em 0 .5em; }
+  h3 { margin: .5em 0; }
+  header, footer { background: #1e4198; color: white; padding: 1em; }
+  header h2 { margin: .5em 0 0; }
+  main { padding: 1em; }
+  div.bar:after { clear: left; content: ""; display: block; }
+  h3 img { min-height: 124px; min-width: 124px; }
+  img { border-radius: 10%; }
+  table { border-collapse: collapse; margin: 0 0 1.5em; }
+  tr { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+  tr:first-child, tr:last-child { border-top: 1px solid #333; border-bottom: 1px solid #333; }
+  th, td { max-width: 25em; padding: .5em 1em; text-align: left; vertical-align: top; }
+  th.numeric, td.numeric { text-align: right; }
+  .athlete th:last-child:hover::after, .club th:last-child:hover::after, .standings th:last-child:hover::after { content: " (Bike miles are divided by 4)"; color: #c00; background: #fff; position: absolute; }
+  .athlete td:first-child { white-space: nowrap; }
+  img, .activities, .leaders { float: left; margin: 0 1em 0 0; }
+  .activities, .leaders { margin-bottom: 1px; }
+  .activities h3, .leaders h3 { margin-top: 0; }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1><a href="../">Example Fitness Challenge</a></h1>
+</header>
+
+<main>
+  <p>Our progress board refreshes daily to avoid slamming the Strava API. No mid-day updates. :(</p>
+  <p><strong>Something missing?</strong> If a single activity is missing, you probably need to edit the activity and change its visibility in Strava. Contact your club captain for details.</p>
+
+<h3 id="1065964"><a href="https://www.strava.com/clubs/amritmahotsavwalkevent"><img alt="logo" src="https://dgalywyr863hv.cloudfront.net/pictures/clubs/1065964/25170081/1/large.jpg"></a> Yatendra S.</h3>
+<table class="athlete"><tbody><tr><th>Date</th><th>Event</th><th>Description</th><th class="numeric">Duration</th><th class="numeric">KM</th><th class="numeric">KM (Adjusted)</th></tr>
+<tr title="e31bee416aac27bff66b5c9cd86505d8810bc6bf"><td>7/29/2022</td><td>Walk</td><td>Trial Walk</td><td class="numeric">10:37</td><td class="numeric">1.0</td><td class="numeric">1.0</td></tr>
+<tr title="53546ea0c56c8a5b1f1f7a98e7da69eae843a2b4"><td>7/29/2022</td><td>Walk</td><td>Day-1 Walk-1</td><td class="numeric">2:03:54</td><td class="numeric">13.1</td><td class="numeric">13.1</td></tr>
+<tr title="78b2ea52a23ebeeba384ffa831ede8a16522c0ef"><td>7/29/2022</td><td>Walk</td><td>Day-1 Walk-2</td><td class="numeric">1:39:12</td><td class="numeric">9.4</td><td class="numeric">9.4</td></tr>
+<tr title="eecdbba5f652c4d4534758c59fa1cd180035c40d"><td>7/30/2022</td><td>Walk</td><td>Day-2 Walk-1</td><td class="numeric">4:26:55</td><td class="numeric">25.0</td><td class="numeric">25.0</td></tr>
+<tr><th colspan="3">Total</th><th class="numeric">8:20:38</th><th class="numeric">48.5</th><th class="numeric">48.5</th></tr>
+</tbody></table>
+
+  <p><strong>Last update:</strong> Sun, 31 Jul 2022 14:16 IST</p>
+</main>
+
+<footer>
+	<p>&copy; Copyright 2021</p>
+</footer>
+
+</body>
+</html>
