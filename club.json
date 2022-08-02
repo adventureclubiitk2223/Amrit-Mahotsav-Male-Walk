@@ -1,0 +1,35 @@
+{
+    "id": 1065964,
+    "resource_state": 3,
+    "name": "Amrit Mahotsav: Ek Unmukt Yatra (Walk Event, Male)",
+    "profile_medium": "https:\/\/dgalywyr863hv.cloudfront.net\/pictures\/clubs\/1065964\/25170081\/1\/medium.jpg",
+    "profile": "https:\/\/dgalywyr863hv.cloudfront.net\/pictures\/clubs\/1065964\/25170081\/1\/large.jpg",
+    "cover_photo": null,
+    "cover_photo_small": null,
+    "activity_types": [
+        "Walk",
+        "Wheelchair"
+    ],
+    "activity_types_icon": "sports_walk_normal",
+    "dimensions": [
+        "distance",
+        "num_activities",
+        "elev_gain",
+        "moving_time"
+    ],
+    "sport_type": "other",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "private": false,
+    "member_count": 59,
+    "featured": false,
+    "verified": false,
+    "url": "amritmahotsavwalkevent",
+    "membership": "member",
+    "admin": true,
+    "owner": false,
+    "description": "Hello all,\r\n\r\nHello all,\r\nThe Adventure Sports Club of IIT Kanpur brings to you Amritmahotsav: Ek Unmukt Yatra, an event covered under the Government of India initiative, Azadi ka Amrit Mahotsav to commemorate 75 years of independence of India.\r\n\r\nIt is a run or walk event, where each participant will be expected to cover a distance of 75 km through walking over 18 days. The event starts on 29th July with an offline kick-off run, where all participants will run together.\r\nWe would like to thank our sponsor NH91, Grand CT, ChinaTown, Forest 91 Club for supporting us conducting this event.\r\n\r\n",
+    "club_type": "casual_club",
+    "following_count": 4
+}
